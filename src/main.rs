@@ -47,5 +47,5 @@ fn main() {
     let index = RTree::bulk_load(x);
     let found = index.locate_at_point(&Point::new(0.0, 0.0)).unwrap();
 
-    println!("{:?}", found.data);   
+    println!("{:?}", found);   
 }
